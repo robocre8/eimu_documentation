@@ -8,7 +8,7 @@ The **`Easy IMU`** is an easy-to-use Advanced Inertial Measurement Unit (IMU) bu
 > The name of the Easy IMU circuit board which consists of the MPU9250 and an ATmega328 microcontroller computational system is **`MPU9250 EIMU Module`** or the **`Easy IMU Module`**  
 > It can easily be used by hobbyists, students, learners, researchers, etc.
 
-> Picture explaining the module
+> Picture explaining the module (MPU9250 + COMPUTATIONAL SYSTEM)
 #
 
 #### COMMON MPU9250 PROBLEM
@@ -19,7 +19,9 @@ While there are libraries available to assist in using the **MPU9250** IMU, comm
 Calibrating its sensors, especially the magnetometer, is usually an issue and can be frustrating as wrong calibration will result in faulty orientation readings. Also, implementing filtering algorithms like the popular Kalman or Madgwick filter to get less noisy filtered orientation readings can be another problem, not to mention choosing a reference frame (e.g. `NED`, `ENU`, or `NWU` reference frame) and trying to add the whole code into your preferred project (which is usually bulky).
 </br></br>
 Ultimately, anyone using an IMU desires filtered orientation readings, in a preferred reference frame (e.g. NED, ENU, or NWU) without the unnecessary stress and headaches of calibration and noise filtering as well as frame transformation when integrating it into their projects.
-</br></br>
+
+#
+
 The **`Easy IMU`** easily solves and abstracts all these problems so you can focus on using the filtered readings in your projects.
 > [!IMPORTANT]
 > In summary, the **`Easy IMU`** provides the following:
@@ -29,3 +31,52 @@ The **`Easy IMU`** easily solves and abstracts all these problems so you can foc
 > * Easy integration with `ROS2` (microcomputer or PC) projects with its ROS2 package - [eimu_ros2]().
 > * Easy integration with `Arduino` projects with its I2C library - [eimu_arduino]().
 > * Easy integration with a microcomputer-based (`Python` or `Cpp`) project with its [eimu_python]() and [eimu_cpp]() library.
+
+#
+
+#### THE Easy IMU Module (i.e MPU9250 EIMU MODULE) SPECIFICATION
+> Picture showing part labels
+
+* Supply Voltage - 5V (typical)
+* Low Power Consumption.
+* Communication Interface - `USB Serial` and `I2C`
+* It can be configured to use any of the `NED`, `ENU`, or `NWU` Reference Frame.
+* Easily integrates with `ROS2` and `Arduino` (as well as `Python` and `Cpp`) projects.
+* `Orientation` readings (Roll, Pitch, and Yaw) are in **radians**. It also outputs quaternion orientation readings.
+* `Angular rate` readings are in **rad/sec**.
+* `Acceleration` readings are in **m/s2**.
+> [!NOTE]
+> Only orientation readings are filtered, not the rate or acceleration readings but it also provides the orientation, angular rates, and acceleration variances which can be used in more advanced filter algorithms as covariance matrices.
+
+> Picture showing different reference frame configurations of the Easy IMU
+
+#
+
+#### Easy IMU APPLICATIONS
+* Robotics (Arduino, ROS2, Python, and C++)
+* Precise Motion tracking
+* Drones
+* GPS Guided systems
+* Heading reference system
+
+#
+
+#### Easy IMU USAGE GUIDE SUMMARY
+* Get/Purchase the **Easy IMU Module** (i.e. **MPU9250 EIMU Module**)
+> [!NOTE]
+> The **Easy IMU Module** (i.e. **MPU9250 EIMU Module**) is currently available on **`Pre-order`**.
+> Please reach out to me via [LinkedIn]() or through my [Contact]() page.
+* Download and run the **Setup Application** to calibrate the **`Easy IMU Module`** and set up the Madgwick filter parameter and gain. You will be able to visualize the final result - [tutorial]()
+* Use it in your **ROS2** project - [tutorial]()
+* Use it in your **Arduino** project - [tutorial]()
+* Use it in your **Python** project - [tutorial]()
+* Use it in your **Cpp** project - [tutorial]()
+
+#
+
+#### LIBRARIES THAT MADE THE Easy IMU PROJECT POSSIBLE
+Check out these Github repos of libraries that went a long way in developing the `Easy IMU ATmega328 microcontroller computational system`. You can use them in your projects also (Ensure to star them).
+* [imu_madgwick_filter]() - Madgwick filter Arduino library based on (and adapted from) the [imu_tool]() ROS2 Madgwick code by CCNYRoboticsLab, adapted by samuko-things.
+* [arduino_matrix_vector_lab]() - Arduino library that helps you perform vector and matrix operations and transformation with arrays, developed by samuko-things.
+* [invensense_imu]() - Arduino and CMake library for communicating with the InvenSense MPU-6500, MPU-9250, and MPU-9255 nine-axis IMUs, by Bolder Flight.
+* [Serial_comm_pyserial_and_arduino]() - a backend-API-style serial communication code between Pyserial and Arduino that can be adapted to any project, developed by samuko-things.
