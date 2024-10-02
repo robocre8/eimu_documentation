@@ -28,12 +28,12 @@ Ultimately, anyone using an IMU desires filtered orientation readings, in a pref
 The **`Easy IMU`** easily solves and abstracts all these problems so you can focus on using the filtered readings in your projects.
 > [!IMPORTANT]
 > In summary, the **`Easy IMU`** provides the following:
-> * Easy `calibration` via its GUI application - [eimu_setup_application]().
+> * Easy `calibration` via its GUI application - [eimu_setup_application](https://github.com/samuko-things-company/eimu_setup_application).
 > * Easy `Madgwick filter` gain setup (and visualization) via its GUI application.
 > * Easy quick reference frame setup (`NED`, `ENU`, `NWU`) via its GUI application.
-> * Easy integration with `ROS2` (microcomputer or PC) projects with its ROS2 package - [eimu_ros2]().
-> * Easy integration with `Arduino` projects with its I2C library - [eimu_arduino]().
-> * Easy integration with a microcomputer-based (`Python` or `Cpp`) project with its [eimu_python]() and [eimu_cpp]() library.
+> * Easy integration with `ROS2` (microcomputer or PC) projects with its ROS2 package - [eimu_ros2](https://github.com/samuko-things-company/eimu_ros2).
+> * Easy integration with `Arduino` projects with its I2C library - [eimu_arduino](https://github.com/samuko-things-company/eimu_arduino).
+> * Easy integration with a microcomputer-based (`Python` or `Cpp`) project with its [eimu_python](https://github.com/samuko-things-company/eimu_python) and [eimu_cpp](https://github.com/samuko-things-company/eimu_cpp) library.
 
 #
 
@@ -68,7 +68,7 @@ The **`Easy IMU`** easily solves and abstracts all these problems so you can foc
 * Get/Purchase the **Easy IMU Module** (i.e. **MPU9250 EIMU Module**)
 > [!NOTE]
 > The **Easy IMU Module** (i.e. **MPU9250 EIMU Module**) is available on **`Pre-order`**.
-> Please reach out to me via [LinkedIn]() or through my [Contact]() page.
+> Please reach out to me via [LinkedIn](www.linkedin.com/in/samuel-obiagba-a61316196) or through my [Contact](https://samukothings.com/contact/) page.
 * Download and run the **Setup Application** to calibrate the **`Easy IMU Module`** and set up the Madgwick filter parameter and gain. You will be able to visualize the final result - [tutorial]()
 * Use it in your **ROS2** project - [tutorial]()
 * Use it in your **Arduino** project - [tutorial]()
