@@ -1,12 +1,15 @@
 ## Easy IMU (EIMU) User Documentation
 Anyone using an Inertial Measurement Unit (IMU) generally wants it to spit out filtered orientation readings and integrate them into their preferred project(s) without the unnecessary stress and headaches of the mathematics and computational algorithms behind it. This is what the **`Easy IMU`** does.
-The **`Easy IMU`** is an easy-to-use Advanced Inertial Measurement Unit (IMU) built on and based on the popular **MPU9250** IMU. It consists of the `MPU9250 IMU`, an `ATmega328 microcontroller computational system`, and a `GUI Application` to ease the calibration, reference frame setup (e.g. NED, ENU, or NWU), and filter setup process for the **MPU9250** IMU (it uses the Madgwick filter). It also provides a `USB serial and I2C communication interface` with `ROS2`, `Arduino`, `Python`, and `Cpp` libraries for easy interfacing with one's preferred project. 
-
+</br></br>
+The **`Easy IMU`** is an easy-to-use Advanced Inertial Measurement Unit (IMU) built on and based on the popular **MPU9250** IMU. It consists of the `MPU9250 IMU`, an `ATmega328 microcontroller computational system`, and a `GUI Application` to ease the calibration, reference frame setup (e.g. NED, ENU, or NWU), and filter setup process for the **MPU9250** IMU (it uses the Madgwick filter).
+</br></br>
+It also provides a `USB serial and I2C communication interface` with `ROS2`, `Arduino`, `Python`, and `Cpp` libraries for easy interfacing with one's preferred project.
 > Short test video
 
 > [!NOTE]
-> The name of the Easy IMU circuit board which consists of the MPU9250 and an ATmega328 microcontroller computational system is **`MPU9250 EIMU Module`** or the **`Easy IMU Module`**  
-> It can easily be used by hobbyists, students, learners, researchers, etc.
+> The name of the Easy IMU circuit board which consists of the MPU9250 and an ATmega328 microcontroller computational system is **`MPU9250 EIMU Module`** or the **`Easy IMU Module`**
+> 
+> It can easily be used by hobbyists, students, learners, researchers, engineers, etc.
 
 > Picture explaining the module (MPU9250 + COMPUTATIONAL SYSTEM)
 #
@@ -25,9 +28,9 @@ Ultimately, anyone using an IMU desires filtered orientation readings, in a pref
 The **`Easy IMU`** easily solves and abstracts all these problems so you can focus on using the filtered readings in your projects.
 > [!IMPORTANT]
 > In summary, the **`Easy IMU`** provides the following:
-> * Easy quick reference frame setup (`NED`, `ENU`, `NWU`) via its GUI application - [eimu_setup_application]().
-> * Easy `calibration` via its GUI application.
+> * Easy `calibration` via its GUI application - [eimu_setup_application]().
 > * Easy `Madgwick filter` gain setup (and visualization) via its GUI application.
+> * Easy quick reference frame setup (`NED`, `ENU`, `NWU`) via its GUI application.
 > * Easy integration with `ROS2` (microcomputer or PC) projects with its ROS2 package - [eimu_ros2]().
 > * Easy integration with `Arduino` projects with its I2C library - [eimu_arduino]().
 > * Easy integration with a microcomputer-based (`Python` or `Cpp`) project with its [eimu_python]() and [eimu_cpp]() library.
@@ -64,7 +67,7 @@ The **`Easy IMU`** easily solves and abstracts all these problems so you can foc
 #### Easy IMU USAGE GUIDE SUMMARY
 * Get/Purchase the **Easy IMU Module** (i.e. **MPU9250 EIMU Module**)
 > [!NOTE]
-> The **Easy IMU Module** (i.e. **MPU9250 EIMU Module**) is currently available on **`Pre-order`**.
+> The **Easy IMU Module** (i.e. **MPU9250 EIMU Module**) is available on **`Pre-order`**.
 > Please reach out to me via [LinkedIn]() or through my [Contact]() page.
 * Download and run the **Setup Application** to calibrate the **`Easy IMU Module`** and set up the Madgwick filter parameter and gain. You will be able to visualize the final result - [tutorial]()
 * Use it in your **ROS2** project - [tutorial]()
