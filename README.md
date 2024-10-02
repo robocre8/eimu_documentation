@@ -11,7 +11,12 @@ It also provides a `USB serial and I2C communication interface` with `ROS2`, `Ar
 > 
 > It can easily be used by hobbyists, students, learners, researchers, engineers, etc.
 
-> Picture explaining the module (MPU9250 + COMPUTATIONAL SYSTEM)
+> **Picture explaining the module (MPU9250 + COMPUTATIONAL SYSTEM)**
+
+![eimu_summary_pic](https://github.com/user-attachments/assets/c9cb1634-0215-4ad5-a767-07b007e178bd)
+
+![Screenshot from 2024-10-02 17-27-00](https://github.com/user-attachments/assets/8b9f2b7a-23b3-491e-bc0d-f49c7eda4336)
+
 #
 
 #### COMMON MPU9250 PROBLEM
@@ -38,7 +43,9 @@ The **`Easy IMU`** easily solves and abstracts all these problems so you can foc
 #
 
 #### THE Easy IMU Module (i.e MPU9250 EIMU MODULE) SPECIFICATION
-> Picture showing part labels
+> **Picture showing part labels**
+
+![eimu_conn_overview](https://github.com/user-attachments/assets/858339da-8f88-4be8-8c8d-1c3288cb5022)
 
 * Supply Voltage - 5V (typical)
 * Low Power Consumption.
@@ -51,7 +58,9 @@ The **`Easy IMU`** easily solves and abstracts all these problems so you can foc
 > [!NOTE]
 > Only orientation readings are filtered, not the rate or acceleration readings but it also provides the orientation, angular rates, and acceleration variances which can be used in more advanced filter algorithms as covariance matrices.
 
-> Picture showing different reference frame configurations of the Easy IMU
+> **Picture showing different reference frame configurations of the Easy IMU**
+
+![eimu_ref_frame](https://github.com/user-attachments/assets/748ba1a4-6347-455c-98b7-58569c317fef)
 
 #
 
