@@ -79,7 +79,7 @@ The **`Easy IMU`** easily solves and abstracts all these problems so you can foc
 * Get/Purchase the **Easy IMU Module** (i.e. **MPU9250 EIMU Module**)
 > [!NOTE]
 > The **Easy IMU Module** (i.e. **MPU9250 EIMU Module**) is available on **`Pre-order`**.
-> Please reach out to me via [LinkedIn](www.linkedin.com/in/samuel-obiagba-a61316196) or through my [Contact](https://samukothings.com/contact/) page.
+> Please reach out to me via [LinkedIn](https://www.linkedin.com/in/samuel-obiagba-a61316196/) or through my [Contact](https://samukothings.com/contact/) page.
 * Download and run the **Setup Application** to calibrate the **`Easy IMU Module`** and set up the Madgwick filter parameter and gain. You will be able to visualize the final result - [tutorial]()
 * Use it in your **ROS2** project - [tutorial]()
 * Use it in your **Arduino** project - [tutorial]()
