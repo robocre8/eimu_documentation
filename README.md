@@ -90,7 +90,7 @@ The **`Easy IMU`** easily solves and abstracts all these problems so you can foc
 
 #### LIBRARIES THAT MADE THE Easy IMU PROJECT POSSIBLE
 Check out these Github repos of libraries that went a long way in developing the `Easy IMU ATmega328 microcontroller computational system`. You can use them in your projects also (Ensure to star them).
-* [imu_madgwick_filter]() - Madgwick filter Arduino library based on (and adapted from) the [imu_tool]() ROS2 Madgwick code by CCNYRoboticsLab, adapted by samuko-things.
-* [arduino_matrix_vector_lab]() - Arduino library that helps you perform vector and matrix operations and transformation with arrays, developed by samuko-things.
-* [invensense_imu]() - Arduino and CMake library for communicating with the InvenSense MPU-6500, MPU-9250, and MPU-9255 nine-axis IMUs, by Bolder Flight.
-* [Serial_comm_pyserial_and_arduino]() - a backend-API-style serial communication code between Pyserial and Arduino that can be adapted to any project, developed by samuko-things.
+* [imu_madgwick_filter](https://github.com/samuko-things/imu_madgwick_filter) - Madgwick filter Arduino library based on (and adapted from) the [imu_tool](https://github.com/CCNYRoboticsLab/imu_tools/tree/humble/imu_filter_madgwick) ROS2 Madgwick code by CCNYRoboticsLab, adapted by samuko-things.
+* [arduino_matrix_vector_lab](https://github.com/samuko-things/arduino_matrix_vector_lab) - Arduino library that helps you perform vector and matrix operations and transformation with arrays, developed by samuko-things.
+* [invensense_imu](https://github.com/bolderflight/invensense-imu/) - Arduino and CMake library for communicating with the InvenSense MPU-6500, MPU-9250, and MPU-9255 nine-axis IMUs, by Bolder Flight.
+* [Serial_comm_pyserial_and_arduino](https://github.com/samuko-things/serial_comm_pyserial_and_arduino) - a backend-API-style serial communication code between Pyserial and Arduino that can be adapted to any project, developed by samuko-things.
