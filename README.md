@@ -6,7 +6,7 @@ The **`Easy IMU`** is an easy-to-use Advanced Inertial Measurement Unit (IMU) bu
 It also provides a `USB serial and I2C communication interface` with `ROS2`, `Arduino`, `Python`, and `Cpp` libraries for easy interfacing with one's preferred project.
 > Short test video
 
-![eimu_ros2_test](./docs//epmc_ros2_test_new.gif)
+![eimu_ros2_test](./docs/eimu_ros2_test_new.gif)
 
 > [!NOTE]
 > The name of the Easy IMU circuit board which consists of the MPU9250 and an ATmega328 microcontroller computational system is **`MPU9250 EIMU Module`** or the **`Easy IMU Module`**
