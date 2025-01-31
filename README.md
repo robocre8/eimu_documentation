@@ -6,7 +6,7 @@ The **`Easy IMU`** is an easy-to-use Advanced Inertial Measurement Unit (IMU) bu
 It also provides a `USB serial and I2C communication interface` with `ROS2`, `Arduino`, `Python`, and `Cpp` libraries for easy interfacing with one's preferred project.
 > Short test video
 
-![sic_ros2_test_new](https://github.com/user-attachments/assets/b4c69494-5065-4943-b6ae-208dee447f3c)
+![eimu_ros2_test](./docs//epmc_ros2_test_new.gif)
 
 > [!NOTE]
 > The name of the Easy IMU circuit board which consists of the MPU9250 and an ATmega328 microcontroller computational system is **`MPU9250 EIMU Module`** or the **`Easy IMU Module`**
@@ -15,9 +15,7 @@ It also provides a `USB serial and I2C communication interface` with `ROS2`, `Ar
 
 > **Picture explaining the module (MPU9250 + COMPUTATIONAL SYSTEM)**
 
-![eimu_summary_pic](https://github.com/user-attachments/assets/c9cb1634-0215-4ad5-a767-07b007e178bd)
-
-![Screenshot from 2024-10-02 17-27-00](https://github.com/user-attachments/assets/8b9f2b7a-23b3-491e-bc0d-f49c7eda4336)
+![eimu_full_pic](./docs/eimu_full_pic.png)
 
 #
 
@@ -35,19 +33,19 @@ Ultimately, anyone using an IMU desires filtered orientation readings, in a pref
 The **`Easy IMU`** easily solves and abstracts all these problems so you can focus on using the filtered readings in your projects.
 > [!IMPORTANT]
 > In summary, the **`Easy IMU`** provides the following:
-> * Easy `calibration` via its GUI application - [eimu_setup_application](https://github.com/samuko-things-company/eimu_setup_application).
+> * Easy `calibration` via its GUI application - [eimu_setup_application](https://github.com/robocre8/eimu_setup_application).
 > * Easy `Madgwick filter` gain setup (and visualization) via its GUI application.
 > * Easy quick reference frame setup (`NED`, `ENU`, `NWU`) via its GUI application.
-> * Easy integration with `ROS2` (microcomputer or PC) projects with its ROS2 package - [eimu_ros2](https://github.com/samuko-things-company/eimu_ros2).
-> * Easy integration with `Arduino` projects with its I2C library - [eimu_arduino](https://github.com/samuko-things-company/eimu_arduino).
-> * Easy integration with a microcomputer-based (`Python` or `Cpp`) project with its [eimu_python](https://github.com/samuko-things-company/eimu_python) and [eimu_cpp](https://github.com/samuko-things-company/eimu_cpp) library.
+> * Easy integration with `ROS2` (microcomputer or PC) projects with its ROS2 package - [eimu_ros2](https://github.com/robocre8/eimu_ros).
+> * Easy integration with `Arduino` projects with its I2C library - [eimu_arduino](https://github.com/robocre8/eimu_arduino).
+> * Easy integration with a microcomputer-based (`Python` or `Cpp`) project with its [eimu_python](https://github.com/robocre8/eimu_python) and [eimu_cpp](https://github.com/robocre8/eimu_cpp) library.
 
 #
 
 #### THE Easy IMU Module (i.e MPU9250 EIMU MODULE) SPECIFICATION
 > **Picture showing part labels**
 
-![eimu_conn_overview](https://github.com/user-attachments/assets/858339da-8f88-4be8-8c8d-1c3288cb5022)
+![eimu_conn_overview](./docs/eimu_conn_overview.png)
 
 * Supply Voltage - 5V (typical)
 * Low Power Consumption.
@@ -62,7 +60,7 @@ The **`Easy IMU`** easily solves and abstracts all these problems so you can foc
 
 > **Picture showing different reference frame configurations of the Easy IMU**
 
-![eimu_ref_frame](https://github.com/user-attachments/assets/748ba1a4-6347-455c-98b7-58569c317fef)
+![eimu_ref_frame](./docs/eimu_ref_frame.png)
 
 #
 
@@ -79,7 +77,7 @@ The **`Easy IMU`** easily solves and abstracts all these problems so you can foc
 * Get/Purchase the **Easy IMU Module** (i.e. **MPU9250 EIMU Module**)
 > [!NOTE]
 > The **Easy IMU Module** (i.e. **MPU9250 EIMU Module**) is available on **`Pre-order`**.
-> Please reach out to me via [LinkedIn](https://www.linkedin.com/in/samuel-obiagba-a61316196/) or through my [Contact](https://samukothings.com/contact/) page.
+> Please reach out to me - check [robocre8](https://github.com/robocre8) for mode of contact.
 * Download and run the **Setup Application** to calibrate the **`Easy IMU Module`** and set up the Madgwick filter parameter and gain. You will be able to visualize the final result - [tutorial]()
 * Use it in your **ROS2** project - [tutorial]()
 * Use it in your **Arduino** project - [tutorial]()
